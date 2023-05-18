@@ -1,0 +1,11 @@
+"""Long necks, cool patterns, taller than you."""
+type Giraffe {
+  age: Int!
+  height: Float!
+  heightInFeet: Float!
+  name: String!
+}
+
+type Query {
+  giraffe: Giraffe!
+}
